@@ -5,11 +5,14 @@ const nextConfig = {
   },
   images: {
     domains: [
-      'res.cloudinary.com', 
-      'avatars.githubusercontent.com',
-      'lh3.googleusercontent.com'
-    ]
-  }
-}
+      "res.cloudinary.com",
+      "avatars.githubusercontent.com",
+      "lh3.googleusercontent.com",
+    ],
+  },
+  server: {
+    port: 3000,
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
