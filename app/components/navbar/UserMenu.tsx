@@ -73,7 +73,7 @@ const UserMenu: React.FC<UserMenuProps> = ({ currentUser }) => {
             cursor-pointer
           "
         >
-          <Link href="https://sepm-denzzi.vercel.app/">View on Map</Link>
+          <Link href="https://sepm-denzzi.vercel.app/">View On Map</Link>
         </div>
         <div
           onClick={toggleOpen}
